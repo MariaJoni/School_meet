@@ -78,12 +78,12 @@ function Home() {
                 </h2>
               ) : (
                 <h2 className="text-uppercase text-center mb-5">
-                  Add ClassRoom
+                  Add Your ClassRoom
                 </h2>
               )}
               <MDBInput
                 wrapperClass="mb-4"
-                label="Course Name"
+                label="Add Course Name"
                 size="lg"
                 type="text"
                 name="name"
@@ -93,7 +93,7 @@ function Home() {
               />
               <MDBInput
                 wrapperClass="mb-4"
-                label="Mentor Name"
+                label="Add Mentor Name"
                 size="lg"
                 type="text"
                 name="mentor"
