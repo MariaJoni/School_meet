@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.show-card{
+    width: 100%;
+    height: 100vh;
+    background-color: #ddf7f8;
+   
+}
+@media screen  and (max-width:992px) {
+    .show-card{
+    }    
+
+}
+@media screen and (max-width:600px) {
+    .show-card{
+    }
+    
+}
+.card-container{
+   text-align: center;
+   border: 1px solid black;
+}
+.table-container{
+    width: 80%;
+}
+
+
